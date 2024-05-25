@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Meine Webseite</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verlinkung zu einer CSS-Datei -->
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Kontaktieren Sie uns</h2>
+            <p>Wir freuen uns darauf, von Ihnen zu hören! Bitte füllen Sie das folgende Formular aus, um uns eine Nachricht zu senden:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+        <section>
+            <h2>Unsere Kontaktdaten</h2>
+            <p>Sie können uns auch per E-Mail oder Telefon erreichen:</p>
+            <ul>
+                <li>Email: <a href="mailto:info@meinewebseite.de">info@meinewebseite.de</a></li>
+                <li>Telefon: +49 123 456 789</li>
+                <li>Adresse: Musterstraße 1, 12345 Musterstadt, Deutschland</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meine Webseite. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
