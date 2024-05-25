@@ -52,7 +52,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #a4fcfc;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
@@ -82,12 +82,12 @@ form input, form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #fffcef;
     border-radius: 5px;
 }
 
 form button {
-    background-color: #4CAF50;
+    background-color: #a4fcfc;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -97,7 +97,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #a4fcfc;
 }
 
 footer {
